@@ -1,0 +1,200 @@
+body {
+    background-color: #1a1a1a;
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+fieldset {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid firebrick;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+legend{
+    font-size: 25px;
+    font-weight: bold;
+    color: #e0e0e0;
+    margin-bottom: 15px;
+
+}
+.welcome{
+    color: #e0e0e0;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: #e0e0e0;
+    border: none;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button{
+    background-color: firebrick;
+    font-size: 20px;
+}
+
+p{
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: #e0e0e0;
+}
+
+a{
+  font-family: "Times New Roman", serif;
+  color: #e0e0e0;
+}
+
+.credentials{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+label{
+    color: #e0e0e0;
+}
+
+input[type=email], [type=password]{
+    background-color: white;
+    font-family: "Times New Roman", serif;
+    color: black;
+    border: none;
+    border-bottom: 3px solid firebrick;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    background-color: firebrick;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: #e0e0e0;
+    border: none;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+    font-size: 1em;
+    padding: 10px 20px; 
+    width: auto;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text]{
+    font-family: "Times New Roman", serif;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid firebrick;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+::placeholder{
+    font-family: "Times New Roman", serif;
+    color: black;
+}
+
+.addTask{
+    background-color: firebrick;
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: #e0e0e0;
+    border: none;
+    border-bottom: 3px solid white;
+    border-radius: 10px;
+    padding: 10px 20px; 
+    width: auto;
+    cursor: pointer;
+}
+
+.editTask {
+    background-color: #008000;
+    color: #e0e0e0;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editTask:hover {
+    background-color: #006400;
+}
+
+.deleteTask {
+    background-color: #FF0000;
+    color: #e0e0e0;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.deleteTask:hover {
+    background-color: #D40000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center
+}
+
+ul li {
+    margin: 10px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    font-family: "Courier New", monospace;
+    color: #e0e0e0;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+}
+
+.buttonGroup{
+    display: flex;
+    gap: 5px;
+}
+
+ul li:hover {
+    background: #141414;
+}
+
+footer {
+    font-family: "Courier New", monospace;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #e0e0e0;
+    width: 100%;
+}
